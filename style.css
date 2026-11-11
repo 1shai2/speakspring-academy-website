@@ -1,0 +1,71 @@
+/* General website styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7ff;
+    color: #222;
+}
+
+/* Navigation bar */
+
+nav {
+    background-color: #29245c;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+/* Main welcome section */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e8e8ff;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #29245c;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Join button */
+
+button {
+    background-color: #6554d9;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4435a9;
+}
+
+/* Courses section */
+
+.courses {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.course-card {
+    background-color: white;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
