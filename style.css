@@ -410,3 +410,59 @@ body {
         padding: 65px 8%;
     }
 }
+/* STUDENT ENQUIRY FORM */
+
+.enquiry-form {
+    max-width: 520px;
+    margin: 35px auto 20px;
+    padding: 30px;
+    background: #F7F4ED;
+    color: #182A3A;
+    text-align: left;
+    border: 1px solid #C9AA70;
+}
+
+.enquiry-form label {
+    display: block;
+    margin: 16px 0 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #D8D0C2;
+    background: #FFFFFF;
+    color: #182A3A;
+    font: inherit;
+    font-size: 14px;
+}
+
+.enquiry-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.enquiry-form input:focus,
+.enquiry-form select:focus,
+.enquiry-form textarea:focus {
+    outline: 2px solid #C9AA70;
+    border-color: #C9AA70;
+}
+
+.form-button {
+    border: none;
+    cursor: pointer;
+    margin-top: 22px;
+    width: 100%;
+    font: inherit;
+    font-weight: bold;
+}
+
+.enquiry-form input:invalid:focus,
+.enquiry-form select:invalid:focus {
+    border-color: #B85C50;
+}
