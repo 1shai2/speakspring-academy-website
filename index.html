@@ -118,17 +118,44 @@
         </section>
 
         <!-- CONTACT -->
-        <section class="contact-section" id="contact">
-            <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
-            <h2>Ready to find your voice?</h2>
-            <p>Get in touch to learn more about our online English classes.</p>
-            <a href="https://wa.me/919076054021?text=Hello%2C%20I%20want%20to%20know%20about%20your%20English%20classes."
-   class="gold-button"
-   target="_blank">
-   Enquire on WhatsApp →
-</a>
-            <p class="contact-note">Replace the sample email address with your real academy email before publishing.</p>
-        </section>
+        input type="text" id="student-name"
+               placeholder="Enter your full name" required>
+
+        <label for="student-class">School Class</label>
+        <select id="student-class" required>
+            <option value="">Select your class</option>
+            <option>Class 5–7</option>
+            <option>Class 8–10</option>
+            <option>Class 11–12</option>
+            <option>Other</option>
+        </select>
+
+        <label for="course">Course Interested In</label>
+        <select id="course" required>
+            <option value="">Choose a course</option>
+            <option>Spoken English</option>
+            <option>Grammar & Vocabulary</option>
+            <option>Communication Skills</option>
+        </select>
+
+        <label for="phone">Parent / Student WhatsApp Number</label>
+        <input type="tel" id="phone"
+               placeholder="Enter WhatsApp number" required>
+
+        <label for="message">Your Message (Optional)</label>
+        <textarea id="message"
+                  placeholder="Tell us what you want to learn"></textarea>
+
+        <button type="submit" class="gold-button form-button">
+            Send My Enquiry →
+        </button>
+
+    </form>
+
+    <p class="contact-note">
+        Your enquiry will open in WhatsApp so you can send it to our academy.
+    </p>
+</section>
 
     </main>
 
