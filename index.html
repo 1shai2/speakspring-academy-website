@@ -1,54 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>SpeakSpring Academy</title>
-
+    <title>SpeakSpring Academy | Speak with Confidence</title>
+    <meta name="description" content="Build your English speaking confidence with beginner-friendly online classes at SpeakSpring Academy.">
     <link rel="stylesheet" href="style.css">
 </head>
- 
-<body> 
 
-    <nav>
-        <h2>SpeakSpring Academy</h2>
-    </nav>
+<body>
 
-    <section class="hero">
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-mark">S</span>
+            <span>SPEAKSPRING <small>ACADEMY</small></span>
+        </a>
 
-        <h1>Speak English With Confidence!</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="nav-button">Enquire Now</a>
+        </nav>
+    </header>
 
-        <p>
-            Improve your English speaking skills
-            with our online classes.
-        </p>
+    <main>
 
-        <button onclick="sayHello()">Join Our Classes</button>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">THE ART OF CONFIDENT COMMUNICATION</p>
 
-    </section>
+                <h1>Find Your Voice.<br>
+                    <span>Shape Your Future.</span>
+                </h1>
 
-    <section class="courses">
+                <p class="hero-description">
+                    Learn to speak English with clarity, confidence
+                    and purpose. Your journey begins with one small step.
+                </p>
 
-        <h2>Our Courses</h2>
+                <a href="#courses" class="gold-button">Explore Our Courses →</a>
 
-        <div class="course-card">
+                <p class="hero-note">Thoughtfully designed for school students.</p>
+            </div>
 
-            <h3>Spoken English for Students</h3>
+            <!-- ABSTRACT EDUCATIONAL ILLUSTRATION -->
+            <div class="hero-art" aria-label="Decorative illustration of a book and stars">
+                <div class="art-circle"></div>
+                <div class="art-star star-one">✦</div>
+                <div class="art-star star-two">✧</div>
+                <div class="book">
+                    <div class="book-page left-page"></div>
+                    <div class="book-page right-page"></div>
+                    <span class="book-letter">A</span>
+                </div>
+                <div class="art-caption">LEARN · SPEAK · GROW</div>
+            </div>
+        </section>
 
-            <p>
-                Learn grammar, vocabulary,
-                pronunciation and communication.
+        <!-- COURSES -->
+        <section class="section courses" id="courses">
+            <p class="eyebrow">OUR PROGRAMMES</p>
+            <h2>Learn with purpose.</h2>
+            <p class="section-intro">
+                Practical learning experiences to help you
+                become a confident English speaker.
             </p>
 
-            <button>Learn More</button>
+            <div class="course-grid">
+                <article class="course-card">
+                    <span class="course-number">01</span>
+                    <h3>Spoken English</h3>
+                    <p>Practise everyday conversations and express your thoughts confidently.</p>
+                </article>
 
-        </div>
+                <article class="course-card">
+                    <span class="course-number">02</span>
+                    <h3>Grammar & Vocabulary</h3>
+                    <p>Build a strong foundation with useful words and simple grammar.</p>
+                </article>
 
-   </section>
-    
-<script src="script.js"></script>  
-    
+                <article class="course-card">
+                    <span class="course-number">03</span>
+                    <h3>Communication Skills</h3>
+                    <p>Improve your speaking, listening and presentation skills.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about-section" id="about">
+            <div class="about-symbol">✦</div>
+            <div>
+                <p class="eyebrow">THE SPEAKSPRING APPROACH</p>
+                <h2>Confidence is built,<br>one conversation at a time.</h2>
+                <p>
+                    We believe every student deserves the confidence
+                    to express themselves. Our learning approach focuses
+                    on simple explanations, regular practice and
+                    supportive live online classes.
+                </p>
+            </div>
+        </section>
+
+        <!-- LEARNING JOURNEY -->
+        <section class="section journey">
+            <p class="eyebrow">YOUR LEARNING JOURNEY</p>
+            <h2>Small steps. Real progress.</h2>
+
+            <div class="journey-grid">
+                <div><span>01</span><h3>Learn</h3><p>Understand new words and concepts.</p></div>
+                <div><span>02</span><h3>Practise</h3><p>Use English in guided activities.</p></div>
+                <div><span>03</span><h3>Speak</h3><p>Build confidence through conversation.</p></div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact-section" id="contact">
+            <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+            <h2>Ready to find your voice?</h2>
+            <p>Get in touch to learn more about our online English classes.</p>
+            <a href="mailto:YOUR-EMAIL@example.com" class="gold-button">Enquire About Classes →</a>
+            <p class="contact-note">Replace the sample email address with your real academy email before publishing.</p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home" class="logo footer-logo">
+            <span class="logo-mark">S</span>
+            <span>SPEAKSPRING <small>ACADEMY</small></span>
+        </a>
+        <p>Small steps. Confident English.</p>
+        <p class="copyright">© 2026 SpeakSpring Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
